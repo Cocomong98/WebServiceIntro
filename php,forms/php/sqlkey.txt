@@ -1,0 +1,2 @@
+SELECT customers.CustomerName, customers.Country ,orders.OrderID
+FROM customers INNER JOIN orders WHERE customers.CustomerID=orders.CustomerID AND customers.Country='Mexico';
