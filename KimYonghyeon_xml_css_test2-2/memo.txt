@@ -1,0 +1,29 @@
+Name 
+ - Difficluties : Not much
+
+ - solved : Resolve with simple CSS and animations using infinites
+
+Exercise 
+ - Difficluties : It was difficult to fix the part and to change the four sides as it became transformed
+
+ - solved : Solve the rest of the parts except for fixing by using a negative figure of skewY
+
+Major
+ - Difficluties : Not much
+
+ - solved : Set the radius and time of rotation in the transform and solve it by adjusting the overall size before and after rotation
+
+Hobby
+ - Difficluties : It was difficult to set each situation according to the four progresses
+
+ - solved : Resolve by changing one by one with reference points
+
+Meal
+ - Difficluties : It was difficult to hold it in one position and avoid colliding with Hobby
+
+ - solved : Implement stopping during rotation and then changing parts
+
+Book
+ - Difficluties : Most difficult, the position changed with the movement of the Hobby above, which seems to have taken a lot of time to figure out the pattern
+
+ - solved : Before solving, stop the video by size and divide it into 4 patterns, and solve it by automatically adjusting it according to size through scaleX

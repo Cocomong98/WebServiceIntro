@@ -1,0 +1,66 @@
+company {
+    width: 100px;
+    height: 50px;
+    background: yellow;
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s; }
+
+company:hover {
+    width: 300px; }
+
+year {
+    width: 100px;
+    height: 50px;
+    display: block;
+    background: cyan;
+    margin-left: 20pt;
+    -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+    }
+    
+year:hover { width: 200px;
+    height: 100px; }
+
+price {
+    width: 100px;
+    height: 50px;
+    background: gray;
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+    -webkit-transition: width 3s; /* Safari */ -webkit-transition-delay: 1s; /* Safari */
+    transition: width 3s; transition-delay: 1s;
+    }
+        
+price:hover {
+    width: 300px; }
+
+country {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin-left: 20pt;
+    background: purple;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s; }
+        
+country:hover {
+    width: 200px;
+    height: 100px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    }
+
+    cd {
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        display: block;
+        margin-bottom: 30pt;
+        margin-left: 0;
+        font-family: Arial, "Times New Roman", Times, serif;
+        }
+    
